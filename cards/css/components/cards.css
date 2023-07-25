@@ -1,0 +1,70 @@
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-category {
+  width: 400px;
+  color:black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-product {
+  width: 400px;
+  height: 400px;
+  background-color:white;
+  box-shadow: 0 0 16px black;
+  color:black;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin: 16px;
+}
+
+.container {
+    display: flex; /* Use flexbox to align cards horizontally */
+    flex-wrap: wrap; /* Wrap the cards to a new line when there's not enough space */
+    justify-content: space-between; /* Distribute cards evenly along the main axis */
+}
+
+.picture {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.picture2 {
+  height: 550px;
+  width: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+.picture3 {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  object-position: 80%;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* background-position: center;
+  background-size: cover; */
